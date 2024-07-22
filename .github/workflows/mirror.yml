@@ -28,4 +28,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           asset_path: ./*
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
          
