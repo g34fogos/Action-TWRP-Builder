@@ -25,7 +25,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: | 
-            /home/runner/work/MotoG34_fogos/MotoG34_fogos/* 
+            /home/runner/work/Action-TWRP-Builder/Action-TWRP-Builder/* 
           tag_name: ${{ github.run_id }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
