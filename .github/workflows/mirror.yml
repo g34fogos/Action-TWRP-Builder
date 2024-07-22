@@ -28,4 +28,4 @@ jobs:
             /home/runner/work/Action-TWRP-Builder/Action-TWRP-Builder/* 
           tag_name: ${{ github.run_id }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
